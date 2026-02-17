@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 2;
+}
+
+body {
+    background-color: #f3e5d8;
+    font-family: outfit, sans-serif;
+    color: hsl(30, 10%, 34%);
+}
+
+@font-face {
+    font-family: outfit;
+    src: url('./Assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: young-serif;
+    src: url('./Assets/fonts/young-serif/YoungSerif-Regular.ttf');
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 3.5em;
+    font-family: young-serif, sans-serif;
+    color: black;
+}
+
+.instruction {
+    font-weight: bold;
+}
+
+/* Colors of the secondary heading eg. ingredients, Instructions */
+h2,
+td {
+    color: hsl(14, 45%, 36%);
+}
+
+/* Main container holding everything */
+.container {
+    width: 50%;
+    margin: 100px auto;
+    background-color: #ffffff;
+    height: auto;
+    border-radius: 50px;
+    padding: 60px;
+}
+
+/* Spacing in top and bottom in every container */
+.container div {
+    margin: 30px 0;
+    padding: 20px;
+}
+
+/* Image Styling */
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+/* Preparation div */
+.preparation {
+    background-color: #fff7fc;
+    border-radius: 10px;
+}
+
+.preparation h2 {
+    color: hsl(332, 51%, 32%);
+}
+
+/* ul and ol styling */
+.container ul,
+.container ol {
+    padding-left: 30px;
+}
+
+.container ol li {
+    padding-left: 15px;
+}
+
+/* List marker styling */
+.container ol li::marker,
+.container ul li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+/* Ingredient spacing */
+.ingredient {
+    padding-left: 15px;
+}
+
+/* Horizontal line style */
+hr {
+    margin: 40px 0;
+    height: 1px;
+    opacity: 0.2;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    text-align: left;
+    text-indent: 15px;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+td {
+    font-weight: bold;
+}
+
+tr {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
