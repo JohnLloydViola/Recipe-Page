@@ -24,10 +24,16 @@ body {
 }
 
 h1 {
-    font-size: 3.5em;
+    font-size: 3.5rem;
     font-family: young-serif, sans-serif;
     color: black;
 }
+
+h2 {
+    font-size: 2.2rem;
+    font-family: young-serif, sans-serif;
+}
+
 
 .instruction {
     font-weight: bold;
@@ -68,9 +74,10 @@ img {
 .preparation {
     background-color: #fff7fc;
     border-radius: 10px;
+    padding-left: 30px !important;
 }
 
-.preparation h2 {
+.preparation h3 {
     color: hsl(332, 51%, 32%);
 }
 
