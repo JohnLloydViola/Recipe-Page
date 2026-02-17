@@ -26,11 +26,12 @@ body {
 h1 {
     font-size: 3.5rem;
     font-family: young-serif, sans-serif;
-    color: black;
+    color: #2e2b2a;
+   
 }
 
 h2 {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     font-family: young-serif, sans-serif;
 }
 
@@ -79,6 +80,7 @@ img {
 
 .preparation h3 {
     color: hsl(332, 51%, 32%);
+    font-size: 1.3rem;
 }
 
 /* ul and ol styling */
